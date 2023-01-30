@@ -1,0 +1,16 @@
+id: glpi-tech-detect
+
+info:
+  name: 
+  author:
+  severity:
+
+requests:
+  - raw:
+    - |
+      GET / HTTP/1.1
+
+    matchers:
+      - type: [choose one]
+        [choosenone]:
+          - [some stuff]

@@ -1,0 +1,12 @@
+id: glpi-workflow-custom
+
+info:
+  name:
+  author:
+  tags:
+
+workflows:
+  - template:
+    subtemplates:
+      - template:
+      - template:
